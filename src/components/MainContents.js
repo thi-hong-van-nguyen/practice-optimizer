@@ -2,6 +2,7 @@ import React from 'react';
 import BubbleChart from './BubbleChart';
 
 function MainContents() {
+
     return <div className='content-wrapper'>
         {/* Menu */}
         <div className='menu'>
@@ -33,7 +34,7 @@ function MainContents() {
                         </select>
                     </span>
                     <span className='starting-date'>
-                        <label for="start">Start from:</label>
+                        <label htmlFor="start">Start from:</label>
                         <input type="date" id="start" name="trip-start" />
                     </span>
                 </div>
@@ -162,6 +163,6 @@ function MainContents() {
             </div>
         </div>
     </div>;
-}
+};
 
 export default MainContents;

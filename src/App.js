@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header'
+import Header from './components/Header';
 import MainContents from './components/MainContents';
 
 function App() {
@@ -10,6 +10,6 @@ function App() {
       <MainContents />
     </div >
   );
-}
+};
 
 export default App;

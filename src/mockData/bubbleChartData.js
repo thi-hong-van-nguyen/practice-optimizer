@@ -5,7 +5,7 @@ export const chartData = [
     { dentist: "Bugs Bunny Dental", adjustedProduction: 2100000, patientsSeen: 2100 },
     { dentist: "Awesome Smiles", adjustedProduction: 3700000, patientsSeen: 2300 },
     { dentist: "Bluetooth Dental", adjustedProduction: 4200000, patientsSeen: 1100 },
-]
+];
 
 export const dataPointsConfig = [
     {
@@ -68,4 +68,4 @@ export const dataPointsConfig = [
         markerColor: '#a385a6',
         markerBorderColor: '#891294'
     },
-]
+];

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import logo from '../photos/logo.PNG'
+import logo from '../photos/logo.PNG';
 
 function Header() {
-    const [notification, setNotification] = useState(true)
-    const [display, setDisplay] = useState(false)
+    const [notification, setNotification] = useState(true);
+    const [display, setDisplay] = useState(false);
 
     return <div className='header'>
         <div className='header__item header__item--logo'>
@@ -39,6 +39,6 @@ function Header() {
             </div>
         </div>
     </div>;
-}
+};
 
 export default Header;

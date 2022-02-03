@@ -47,6 +47,6 @@ function BubbleChart() {
     return <div className='canvas-container'>
         <CanvasJSChart options={options} />
     </div>;
-}
+};
 
 export default BubbleChart;
