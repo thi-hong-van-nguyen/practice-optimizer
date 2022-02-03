@@ -1,109 +1,10 @@
-/* GENERAL STYLING */
-.app {
-    width: 100%;
-    overflow: hidden;
-}
-
-.far, .fas {
-font-size: 1.4rem;
-}
-
-select, input {
-    border-radius: 3px;
-}
-
-h5 {
-    color:rgb(139, 139, 139)
-}
-
-/* HEADER */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.header > * {
-    flex: 1;
-}
-
-/* header left */
-.header__item--logo {
-    font-size: 1.2rem;
-    color: rgb(110, 110, 218);
-    font-weight: bold;
-}
-
-.logo {
-    margin-right: 5px
-}
-
-/* header middle content */
-.header__item--practice  {
-    text-align: center;
-}
-
-.header__item--practice label {
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.header__item--practice select {
-    border: black solid 2px;
-    border-radius: 5px;
-    color:rgb(155, 155, 155);
-}
-
-/* header right content */
-.header__item--profile {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: rgb(111, 111, 111);
-}
-
-.profile-notification {
-    position: relative;
-}
-
-.notification__alert {
-    position: absolute;
-    top: 2px;
-    right: 11px;
-    width: 9px;
-    height: 9px;
-    background:rgb(111, 111, 111);
-    border: solid 2px #fff;
-    border-radius: 100%;
-}
-
-.header__item--profile div {
-    padding-right: 12px;
-}
-
-.profile-link  {
-    display: flex;
-    align-items: center;
-}
-
-.profile-link span {
-    font-size: 0.8rem;
-    margin: 0 5px;
-}
-
-.profile-notification i, .profile-link {
-    cursor: pointer;
-}
-
-/* MAIN CONTENT */
 .content-wrapper {
     background: rgb(241, 241, 241);
     padding: 20px;
     min-height: 90vh;
 }
 
-/* menu */
+/* MENU */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -120,6 +21,7 @@ h5 {
 
 .fa-bars {
     color: rgb(110, 110, 218);
+    margin-right: 10px;
 }
 
 h1 {
@@ -169,7 +71,7 @@ h1 {
     margin: 0 5px;
 }
 
-/* main (graph and data) */
+/* MAIN (graph and data) */
 .main {
     display: flex;
     justify-content: space-between;
@@ -178,17 +80,49 @@ h1 {
 .main__left, .main__right {
     background: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
+    box-shadow: 0 1px 1px 1px rgba(190, 190, 190, 0.3);
 }
 
 /* main left (GRAPH)*/
 .main__left{
     width: 70%;
     min-height: 100%;
-    margin: 0 30px;
+    margin: 0 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
+.main__left--selection {
+    padding: 0 20px;
+}
 
+.main__left--selection select {
+    border: rgb(192, 191, 191) solid 1px;
+    box-shadow: -1px 1px 1px 1px rgba(190, 190, 190, 0.3);
+}
+
+.main__left--selection span {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.main__left--chart {
+    margin: 20px 0;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.canvasjs-chart-toolbar {
+    display: none;
+}
+
+.canvas-container {
+    margin-top: 30px;
+}
 
 /* main right (DATA)*/
 .main__right {
@@ -255,9 +189,4 @@ h1 {
         width: 100%;
     }
 }
-
-
-
-
-
 

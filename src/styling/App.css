@@ -1,0 +1,18 @@
+/* This StyleSheet is for general styling of elements inside App div */
+
+.app {
+    width: 100%;
+    overflow: hidden;
+}
+
+.far, .fas {
+font-size: 1.4rem;
+}
+
+select, input {
+    border-radius: 3px;
+}
+
+h5 {
+    color:rgb(139, 139, 139)
+}
